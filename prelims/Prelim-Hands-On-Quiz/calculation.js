@@ -1,3 +1,7 @@
+//Task Name: Prelim Hands On Quiz
+//Author: Quiambao, Jose Raphael T.
+//Section: WD-201
+
 function add(a, b) {
   return a + b;
 }
