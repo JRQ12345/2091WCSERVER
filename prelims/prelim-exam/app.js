@@ -1,5 +1,10 @@
-var greetings = require('./function.js');
+//Author: Quiambao, Jose Raphael T.
+//Section: WD-201
 
-console.log(greetings('Jose Raphael Quiambao'));
-console.log(congratulations('Jose Raphael Quiambao'));
-console.log(farewell('Jose Raphael Quiambao'));
+var { greet, congratulations, farewell } = require('./function.js');
+
+var name = 'Jose Raphael T. Quiambao';
+
+console.log(greet(name));
+console.log(congratulations(name));
+console.log(farewell(name));
