@@ -1,7 +1,7 @@
 //Author: Quiambao, Jose Raphael T.
 //Section: WD-201
 
-var { greet, congratulations, farewell } = require('./function.js');
+var { greet, congratulations, farewell } = require('./message.js');
 
 var name = 'Jose Raphael T. Quiambao';
 
