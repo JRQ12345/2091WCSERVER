@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Form with File Upload</title>
+  </head>
+  <body>
+    <h1>Contact Form with File Upload</h1>
+    <form action="/contact" method="post" enctype="multipart/form-data">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required /><br /><br />
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required /><br /><br />
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" required></textarea><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+      <label for="file">Choose a file:</label>
+      <input
+        type="file"
+        id="file"
+        name="file"
+        accept=".pdf,.doc,.docx,.txt"
+      /><br /><br />
+      <input type="submit" value="Send Message" />
+    </form>
+  </body>
+</html>
